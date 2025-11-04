@@ -1,6 +1,6 @@
 # Task#1: Write a Python program to check if a number is even or odd
 
-## How it works:
+## ✅ How it works:
 
 1. % is the modulus operator, which gives the remainder when one number is divided by another.
 
@@ -12,7 +12,7 @@
 
 # Task#2: Write a Python program to find the factorial of a number using a loop:
 
-## How it works:
+## ✅ How it works:
 
 1. Factorial of a number n is calculated as:
 n! = n × (n-1) × (n-2) × ... × 1
@@ -21,7 +21,7 @@ n! = n × (n-1) × (n-2) × ... × 1
 
 3. Use a loop from 1 to num to multiply the values step by step.
 
-    Special cases:
+    📌Special cases:
 
     0! = 1
 
@@ -31,4 +31,18 @@ n! = n × (n-1) × (n-2) × ... × 1
 
 # Task#3: Write a Python program to check if a number is prime
 
-## How it works:
+## ✅ How it works:
+
+A prime number is a number greater than 1 and divisible only by 1 and itself.
+
+We check divisibility from 2 to sqrt(num) because a larger factor would have a corresponding smaller factor.
+
+If any divisor is found → not prime.
+
+If loop completes without breaking → prime.
+
+📌 Notes:
+
+1, 0, and negative numbers are not prime.
+
+---------------------
