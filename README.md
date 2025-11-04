@@ -8,6 +8,8 @@
 
 3. If the remainder is not 0 → odd.
 
+---------------------
+
 # Task#2: Write a Python program to find the factorial of a number using a loop:
 
 ## How it works:
@@ -24,3 +26,9 @@ n! = n × (n-1) × (n-2) × ... × 1
     0! = 1
 
     Factorial is not defined for negative numbers.
+
+---------------------
+
+# Task#3: Write a Python program to check if a number is prime
+
+## How it works:
