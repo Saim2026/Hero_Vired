@@ -1,3 +1,4 @@
+# This program reverses a given string without using built-in functions.
 text = input("Enter a string: ")
 reversed_text = ""
 
