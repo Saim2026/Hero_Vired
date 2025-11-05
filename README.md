@@ -37,8 +37,7 @@ n! = n × (n-1) × (n-2) × ... × 1
 
 ✅ Examples
 
-Enter a non-negative integer: 5
-The factorial of 5 is 120
+Enter a non-negative integer: 5, The factorial of 5 is 120
 
 Enter a non-negative integer: 0 , The factorial of 0 is 1
 
@@ -62,8 +61,7 @@ If loop completes without breaking → prime.
 
 ✅ Example
 
-Enter a number: 7
-7 is a prime number.
+Enter a number: 7, 7 is a prime number.
 
 Enter a number: 10 , 10 is not a prime number.
 
@@ -106,5 +104,42 @@ If text = "hello":
 5th Iteration:	'o'	'olleh'
 
 So the first time the loop runs, char will be the first character of the string.
+
+---------------------
+
+# Task5: Write a Python program to check if a string is a palindrome.
+
+## What is a palindrome?
+
+A string that reads the same forward and backward, e.g.:
+
+level , noon , 121 , A man a plan a canal Panama
+
+## ✅ How it works:
+
+1. Read a string from the user and store it in variable text
+
+2. Remove all spaces from text and convert it to lowercase, with the help of functions text.replace(" ", "").lower()
+
+3. Store the result in clean_text
+
+4. Initialize an empty string reversed_text
+
+5. For each character char in clean_text, repeat:
+    - Set reversed_text = char + reversed_text (This builds the reversed string)
+
+6. Compare clean_text with reversed_text, If both are equal:
+    - Print "It is a palindrome!"
+
+Else:
+    - Print "It is not a palindrome."
+
+7. End
+
+✅ Example
+
+Input: level
+→ Reversed: level
+→ Output: It is a palindrome!
 
 ---------------------
