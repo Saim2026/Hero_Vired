@@ -96,9 +96,13 @@ Input: "hello" , Output: "olleh"
 If text = "hello":
 
 1st Iteration:	'h'	'h'
+
 2nd Iteration:	'e'	'eh'
+
 3rd Iteration:	'l'	'leh'
+
 4th Iteration:	'l'	'lleh'
+
 5th Iteration:	'o'	'olleh'
 
 So the first time the loop runs, char will be the first character of the string.
